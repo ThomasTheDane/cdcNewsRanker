@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+Patient with MERS virus improving in Indiana
+0.378830571209
+http://www.cdc.gov/Features/novelcoronavirus/index.html
+--------------------------------------------------------------------------------
+Transfused Blood Rejuvenates Old Mice
+0.133977431305
+http://www.cdc.gov/bloodpressure/index.htm
+--------------------------------------------------------------------------------
+US e-cigarette experiment inspires new medical device
+0.0949159686882
+http://www.cdc.gov/mmwr/preview/mmwrhtml/mm6112a1.htm
+--------------------------------------------------------------------------------
+Helmets not helpful for treating flat skulls of infants, new study suggests
+0.0746143515716
+http://www.cdc.gov/sids/Parents-Caregivers.htm
+--------------------------------------------------------------------------------
+Environment as big a factor in development of autism as genes, study finds
+0.367934577838
+http://www.cdc.gov/Features/AutismResearch/index.html
+--------------------------------------------------------------------------------
+Gary Becker, economics Nobel Laureate, dies
+0.0323831781818
+http://www.cdc.gov/niosh/programs/totalworkerhealth/pubs.html
+--------------------------------------------------------------------------------
+Tough Mudder Participants Fall Ill After Exposure To Cow Or Pig Feces
+0.0773321605807
+http://www.cdc.gov/az/g.html
+--------------------------------------------------------------------------------
+Many Infants Still Not Placed on Their Backs to Sleep
+0.457131951756
+http://www.cdc.gov/sids/Parents-Caregivers.htm
+--------------------------------------------------------------------------------
+Report: Some e-cigarettes deliver carcinogens
+0.188202318447
+http://www.cdc.gov/Features/TobaccoControls/index.html
+--------------------------------------------------------------------------------
+Man Rescues Baby Raccoon Trapped in Wall
+0.106259106897
+http://www.cdc.gov/healthyweight/assessing/bmi/childrens_BMI/measuring_children.html
