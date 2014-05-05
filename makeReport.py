@@ -19,8 +19,9 @@ def writeDailyReport():
 	    for score, url in tfidf_search.search(searchstring):
 	        f.write('<h3>correlation score: '+str(score) + '</h3>\n')
 	        newUrl = url.replace("$", "/")
-	        newUrl = "<h3>http://www.cdc.gov/" + newUrl + "</h3>"
+	        newUrl = "<h3>http://www.cdc.gov/" + newUrl
 	        newUrl = newUrl[0:-5]
+	        newUrl = newUrl  + "</h3>"
 	        f.write(newUrl + '\n')
 	        break
 	    else:
