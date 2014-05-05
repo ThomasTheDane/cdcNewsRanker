@@ -11,19 +11,21 @@ def writeDailyReport():
 	feed = feedparser.parse(rss_url)
 
 	for item in feed.entries:
+		f.write("<html><body>")
 	    f.write('-'*80 + '\n')
 	    title, source = item.title.split(' - ')
 	    searchstring = tfidf_search.striptext(title + item.description)
-	    f.write(title+'\n')
+	    f.write("<h1>"+title+'</h1>\n')
 	    for score, url in tfidf_search.search(searchstring):
-	        f.write(str(score) + '\n')
+	        f.write('<h3>correlation score: '+str(score) + '</h3>\n')
 	        newUrl = url.replace("$", "/")
-	        newUrl = "http://www.cdc.gov/" + newUrl
+	        newUrl = "<h3>http://www.cdc.gov/" + newUrl + "</h3>"
 	        newUrl = newUrl[0:-5]
 	        f.write(newUrl + '\n')
 	        break
 	    else:
 	        f.write('No relevant URLs' + '\n')
+        f.write('</body></html>')
 
 if __name__ == "__main__":
 	writeDailyReport();
