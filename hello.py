@@ -5,4 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello World!'
+	toSend = ""
+	f = open((time.strftime("%d-%m-%Y")+'.txt'), 'r')
+	for line in f:
+		toSend += (line)
+	return toSend
