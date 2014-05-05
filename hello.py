@@ -11,7 +11,7 @@ def hello():
 	# if(os.path.isfile((time.strftime("%d-%m-%Y")+'.txt'))):
 	print "file found"
 	try:
-		f = open((time.strftime("%d-%m-%Y")+'.txt'), 'r')
+		f = open((time.strftime("%d-%m-%Y")+'.html'), 'r')
 		for line in f:
 			toSend += (line)
 	except:

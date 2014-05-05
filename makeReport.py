@@ -5,14 +5,14 @@ import time
 import tfidf_search
 
 def writeDailyReport():
-	date = (time.strftime("%d-%m-%Y")+'.txt')
+	date = (time.strftime("%d-%m-%Y")+'.html')
 	f = open(date, 'w')
 	rss_url = "http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=m&output=rss"
 	feed = feedparser.parse(rss_url)
 
 	for item in feed.entries:
-		f.write("<html><body>")
-	    f.write('-'*80 + '\n')
+	    f.write("<html><body>")
+	    f.write("<h4>"+('-'*80) + '</h4>\n')
 	    title, source = item.title.split(' - ')
 	    searchstring = tfidf_search.striptext(title + item.description)
 	    f.write("<h1>"+title+'</h1>\n')
