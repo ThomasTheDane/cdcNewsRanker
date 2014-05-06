@@ -11,15 +11,14 @@ def hello():
 	# if(os.path.isfile((time.strftime("%d-%m-%Y")+'.txt'))):
 	print "file found"
 	try:
+		toSend = "<h1>Showing report for " + time.strftime("%m-%d-%Y") + "</h1>"
 		f = open((time.strftime("%d-%m-%Y")+'.html'), 'r')
-		for line in f:
-			toSend += (line)
 	except:
-		toSend = "File not found"
+		f = open("06-05-2014.html", 'r')
+		toSend = "<h1>Showing report for 05/06/2014</h1>"
+	for line in f:
+		toSend += (line)
 	return toSend
-	# else:
-	# 	return "Report Not Found, check back later"
-
 
 if __name__ == "__main__":
 	# print hello();
